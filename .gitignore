@@ -1,0 +1,16 @@
+# Do not commit copyrighted source tracks or generated audio previews.
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.aiff
+*.aif
+*.ogg
+*.opus
+*.caf
+# Keep only the synthetic public-domain melody comparison.
+!examples/twinkle-clean-reference.m4a
+!examples/twinkle-sharper-dissonant.m4a
+__pycache__/
+.DS_Store
